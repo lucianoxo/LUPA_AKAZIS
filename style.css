@@ -209,7 +209,7 @@ img{
     background-color: #373435;
     line-height: 47px;
     padding: 5px 30px;
-    transition: .5s
+    transition: .5s;
 }
 
 .main_product_cta_button a{
@@ -345,9 +345,6 @@ input[type="email"]{
     border: 1px solid #ebebeb !important;
 }
 
-#subscribe-form{
-    position: relative
-}
 
 #subscribe-form button {
     position: absolute;
