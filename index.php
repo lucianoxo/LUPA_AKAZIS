@@ -45,8 +45,8 @@
                         </div>
                         <li><a href="">Home</a></li>
                         <li><a href="">Quem somos</a></li>
-                        <li><a href="">Materiais</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li><a href="">Coleções</a></li>
+                        <li><a href="">Campanha</a></li>
                         <li><a href="">Contato</a></li>
                     </ul>
 
@@ -70,7 +70,7 @@
 
             <section class="main_new_products container">
                 <div class="content">
-                    <h1>Novos produtos</h1>
+                    <h1>Feito para você</h1>
                     <ul>
                         <li class="new_product_item">
                             <div class="new_product_img">
@@ -82,8 +82,20 @@
                             <div class="new_product_price">
                                 <span>R$ 179,90</span>
                             </div>
-                            <div class="new_product_button">
+                            <!--<div class="new_product_button">
                                 <a href="#">Adicionar ao carrinho</a>
+                            </div>-->
+                        </li>
+
+                        <li class="new_product_item">
+                            <div class="new_product_img">
+                                <img src="img/13.jpg" class="responsive-img"
+                            </div>
+                            <div class="new_product_desc">
+                                <span>Cotton White Underweaer Block Out Edition</span>
+                            </div>
+                            <div class="new_product_price">
+                                <span>R$ 179,90</span>
                             </div>
                         </li>
 
@@ -97,9 +109,6 @@
                             <div class="new_product_price">
                                 <span>R$ 179,90</span>
                             </div>
-                            <div class="new_product_button">
-                                <a href="#">Adicionar ao carrinho</a>
-                            </div>
                         </li>
 
                         <li class="new_product_item">
@@ -112,9 +121,6 @@
                             <div class="new_product_price">
                                 <span>R$ 179,90</span>
                             </div>
-                            <div class="new_product_button">
-                                <a href="#">Adicionar ao carrinho</a>
-                            </div>
                         </li>
 
                         <li class="new_product_item">
@@ -126,69 +132,6 @@
                             </div>
                             <div class="new_product_price">
                                 <span>R$ 179,90</span>
-                            </div>
-                            <div class="new_product_button">
-                                <a href="#">Adicionar ao carrinho</a>
-                            </div>
-                        </li>
-
-                        <li class="new_product_item">
-                            <div class="new_product_img">
-                                <img src="img/13.jpg" class="responsive-img"
-                            </div>
-                            <div class="new_product_desc">
-                                <span>Cotton White Underweaer Block Out Edition</span>
-                            </div>
-                            <div class="new_product_price">
-                                <span>R$ 179,90</span>
-                            </div>
-                            <div class="new_product_button">
-                                <a href="#">Adicionar ao carrinho</a>
-                            </div>
-                        </li>
-
-                        <li class="new_product_item">
-                            <div class="new_product_img">
-                                <img src="img/13.jpg" class="responsive-img"
-                            </div>
-                            <div class="new_product_desc">
-                                <span>Cotton White Underweaer Block Out Edition</span>
-                            </div>
-                            <div class="new_product_price">
-                                <span>R$ 179,90</span>
-                            </div>
-                            <div class="new_product_button">
-                                <a href="#">Adicionar ao carrinho</a>
-                            </div>
-                        </li>
-                        
-                        <li class="new_product_item">
-                            <div class="new_product_img">
-                                <img src="img/13.jpg" class="responsive-img"
-                            </div>
-                            <div class="new_product_desc">
-                                <span>Cotton White Underweaer Block Out Edition</span>
-                            </div>
-                            <div class="new_product_price">
-                                <span>R$ 179,90</span>
-                            </div>
-                            <div class="new_product_button">
-                                <a href="#">Adicionar ao carrinho</a>
-                            </div>
-                        </li>
-                        
-                        <li class="new_product_item">
-                            <div class="new_product_img">
-                                <img src="img/13.jpg" class="responsive-img"
-                            </div>
-                            <div class="new_product_desc">
-                                <span>Cotton White Underweaer Block Out Edition</span>
-                            </div>
-                            <div class="new_product_price">
-                                <span>R$ 179,90</span>
-                            </div>
-                            <div class="new_product_button">
-                                <a href="#">Adicionar ao carrinho</a>
                             </div>
                         </li>
                     </ul>
@@ -197,16 +140,16 @@
 
             <div class="main_product_cta container">
                 <div class="content">
-                    <h1>Nova coleção de primavera</h1>
+                    <h1>Estamos esperando seu contato</h1>
                     <div class="main_product_cta_button">
-                        <a href="#">Vai perder?</a>
+                        <a href="#">Fale com a gente</a>
                     </div>
                 </div>
             </div>
 
             <section class="main_blog container">
                 <div class="content row">
-                    <h1>Últimas notícias</h1>
+                    <h1>Nas Redes Sociais</h1>
 
                     <div class="main_blog_box">
                         <article>
