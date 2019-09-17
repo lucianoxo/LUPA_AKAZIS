@@ -23,7 +23,7 @@
         <meta itemprop="url" content=""/>
 
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">        <link rel="stylesheet" href="style.css"/>
         <link rel="stylesheet" href="_cdn/css/materialize.css"/>
         <link rel="stylesheet" href="_cdn/css/unslider.css"/>
         <link rel="stylesheet" href="_cdn/css/unslider-dots.css"/>
@@ -34,10 +34,10 @@
         <header class="main_header container">
             <div class="content row">
                 <div class="main_logo">
-                    <img src="img/logo-akazis.png" class="responsive-img">
+                    <img src="img/logo-akazis.png" class="responsive-img boxs">
                 </div>
 
-                <div class="main_menu ">
+                <div class="main_menu boxs">
                     <ul class="main_menu_box">
                         <div class="main_menu_mobile_header">
                             <i class="fas fa-times"></i>
@@ -58,7 +58,7 @@
         </header>
 
         <main>
-            <div class="main_hero container">
+            <div class="main_hero container boxs">
                 <div class="banner">
                     <ul>
                         <li><img src="img/slider-bg-1.jpg" class="responsive-img"></li>
@@ -70,9 +70,9 @@
 
             <section class="main_new_products container">
                 <div class="content">
-                    <h1>Feito para você</h1>
+                    <h1 class="srBottom">Feito para você</h1>
                     <ul>
-                        <li class="new_product_item">
+                        <li class="new_product_item srLeft">
                             <div class="new_product_img">
                                 <img src="img/13.jpg" class="responsive-img"
                             </div>
@@ -87,7 +87,7 @@
                             </div>-->
                         </li>
 
-                        <li class="new_product_item">
+                        <li class="new_product_item srLeft">
                             <div class="new_product_img">
                                 <img src="img/13.jpg" class="responsive-img"
                             </div>
@@ -99,7 +99,7 @@
                             </div>
                         </li>
 
-                        <li class="new_product_item">
+                        <li class="new_product_item srLeft">
                             <div class="new_product_img">
                                 <img src="img/13.jpg" class="responsive-img"
                             </div>
@@ -111,7 +111,7 @@
                             </div>
                         </li>
 
-                        <li class="new_product_item">
+                        <li class="new_product_item srLeft">
                             <div class="new_product_img">
                                 <img src="img/13.jpg" class="responsive-img"
                             </div>
@@ -123,7 +123,7 @@
                             </div>
                         </li>
 
-                        <li class="new_product_item">
+                        <li class="new_product_item srLeft">
                             <div class="new_product_img">
                                 <img src="img/13.jpg" class="responsive-img"
                             </div>
@@ -139,7 +139,7 @@
             </section>
 
             <div class="main_product_cta container">
-                <div class="content">
+                <div class="content srBottom">
                     <h1>Estamos esperando seu contato</h1>
                     <div class="main_product_cta_button">
                         <a href="#">Fale com a gente</a>
@@ -149,62 +149,11 @@
 
             <section class="main_blog container">
                 <div class="content row">
-                    <h1>Nas Redes Sociais</h1>
+                    <h1 class="srBottom">Nas Redes Sociais</h1>
 
                     <div class="main_blog_box">
-                        <article>
-                            <a href="#">
-                                <img src="img/new-lastest-2-370x280.jpg" class="responsive-img">
-                                <h2>Tendências do verão 2020</h2>
-                                <span>Veja o que você deve se preparar para usar no próximo verão...</span>
-                                <div class="main_blog_article_button">Leia mais</div>
-                            </a>
-                        </article>
-
-                        <article>
-                            <a href="#">
-                                <img src="img/new-lastest-2-370x280.jpg" class="responsive-img">
-                                <h2>Tendências do verão 2020</h2>
-                                <span>Veja o que você deve se preparar para usar no próximo verão...</span>
-                                <div class="main_blog_article_button">Leia mais</div>
-                            </a>
-                        </article>
-
-                        <article>
-                            <a href="#">
-                                <img src="img/new-lastest-2-370x280.jpg" class="responsive-img">
-                                <h2>Tendências do verão 2020</h2>
-                                <span>Veja o que você deve se preparar para usar no próximo verão...</span>
-                                <div class="main_blog_article_button">Leia mais</div>
-                            </a>
-                        </article>
-
-                        <article>
-                            <a href="#">
-                                <img src="img/new-lastest-2-370x280.jpg" class="responsive-img">
-                                <h2>Tendências do verão 2020</h2>
-                                <span>Veja o que você deve se preparar para usar no próximo verão...</span>
-                                <div class="main_blog_article_button">Leia mais</div>
-                            </a>
-                        </article>
-
-                        <article>
-                            <a href="#">
-                                <img src="img/new-lastest-2-370x280.jpg" class="responsive-img">
-                                <h2>Tendências do verão 2020</h2>
-                                <span>Veja o que você deve se preparar para usar no próximo verão...</span>
-                                <div class="main_blog_article_button">Leia mais</div>
-                            </a>
-                        </article>
-
-                        <article>
-                            <a href="#">
-                                <img src="img/new-lastest-2-370x280.jpg" class="responsive-img">
-                                <h2>Tendências do verão 2020</h2>
-                                <span>Veja o que você deve se preparar para usar no próximo verão...</span>
-                                <div class="main_blog_article_button">Leia mais</div>
-                            </a>
-                        </article>
+                        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+                        <iframe src="//lightwidget.com/widgets/d0cf23593d4c50ac94827e404b22365b.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
                     </div>
                 </div>
             </section>
@@ -272,6 +221,7 @@
 
         <script src="_cdn/js/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script src="_cdn/js/main.js" type="text/javascript"></script>
+        <script src="_cdn/js/scrollreveal.min.js" type="text/javascript"></script>
         <script src="_cdn/js/materialize.js" type="text/javascript"></script>
         <script src="_cdn/js/unslider.js" type="text/javascript"></script>
     </body>

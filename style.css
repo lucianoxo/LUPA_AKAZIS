@@ -385,7 +385,7 @@ input[type="email"]{
 .main_fotter_box ul li a{
     color: #373435;
     text-decoration: none;
-   
+
 }
 
 .main_fotter_box ul li a:hover{
@@ -394,4 +394,81 @@ input[type="email"]{
 
 .main_fotter_box > img{
     max-width: 50% !important; 
+}
+
+/******************************************************************************
+*************************************** RESPONSIVO******************************
+******************************************************************************/
+@media (max-width: 980px) {
+    .menu_mobile{
+        display: flex;
+        align-items: center;
+    }
+
+    .main_logo > img{
+        max-width: 70% !important
+    }
+
+    .menu_mobile > i{
+        font-size: 2em;
+    }
+
+    .main_menu ul{
+        display: none;
+    }
+}
+
+@media (max-width: 780px) {
+    .main_new_products ul li.new_product_item{
+        flex-basis: calc(50% - 30px);
+    }
+
+    .main_fotter_box {
+        flex-basis: calc(50%);
+    }
+}
+
+
+@media (max-width: 600px) {
+    .main_new_products ul li.new_product_item {
+        flex-basis: calc(50% - 0px);
+        padding: 0 10px;
+    }
+
+    .main_product_cta{
+        padding: 50px 0;
+    }
+
+    .main_product_cta h1 {
+        font-size: 2em;
+    }
+
+    .main_product_cta_button{
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main_new_products ul li.new_product_item {
+        flex-basis: calc(100%);
+        margin: 15px 0;
+    }
+    
+    .new_product_img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .main_fotter_box {
+        flex-basis: calc(100%);
+    }
+
+    .main_fotter_box ul li{
+        text-align: center
+    }
+
+    .main_fotter_box{
+        text-align: center
+    }
 }

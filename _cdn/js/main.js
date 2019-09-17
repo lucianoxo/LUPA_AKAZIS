@@ -10,7 +10,7 @@ $(function () {
         autoplay: true,
         delay: 10000,
         dots: false,
-        arrows: true
+        arrows: false
     });
 
 
