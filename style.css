@@ -233,7 +233,7 @@ img{
 ***************** BLOG ****************
 **********************************************/
 .main_blog{
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     margin: 50px 0
 }
@@ -404,6 +404,23 @@ input[type="email"]{
         display: flex;
         align-items: center;
     }
+    
+    .menu_mobile:hover{
+        cursor: pointer
+    }
+
+    .main_menu_box {
+        right: -110%;
+        z-index: 99999;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 1);
+        height: 100vh;
+        position: fixed;
+        top: 43px;
+        overflow-y: auto;
+        text-align: center;
+        display: block !important
+    }
 
     .main_logo > img{
         max-width: 70% !important
@@ -413,8 +430,13 @@ input[type="email"]{
         font-size: 2em;
     }
 
-    .main_menu ul{
-        display: none;
+    .main_menu li{
+        display: block;
+        margin: 30px;
+    }
+    
+    .main_menu li a{
+        display: block
     }
 }
 
@@ -453,7 +475,7 @@ input[type="email"]{
         flex-basis: calc(100%);
         margin: 15px 0;
     }
-    
+
     .new_product_img{
         width: 100%;
     }

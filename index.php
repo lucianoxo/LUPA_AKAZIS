@@ -142,7 +142,7 @@
                 <div class="content srBottom">
                     <h1>Estamos esperando seu contato</h1>
                     <div class="main_product_cta_button">
-                        <a href="#">Fale com a gente</a>
+                        <a href="https://api.whatsapp.com/send?phone=5581997306660" target="_blank">Fale com a gente</a>
                     </div>
                 </div>
             </div>
@@ -152,8 +152,7 @@
                     <h1 class="srBottom">Nas Redes Sociais</h1>
 
                     <div class="main_blog_box">
-                        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-                        <iframe src="//lightwidget.com/widgets/d0cf23593d4c50ac94827e404b22365b.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+                    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a2671c59c46d5ff182e037fa294dacdd.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
                     </div>
                 </div>
             </section>

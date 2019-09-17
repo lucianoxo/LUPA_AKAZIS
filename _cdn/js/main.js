@@ -61,17 +61,17 @@ $('.menu_mobile').click(function () {
         $(this).addClass('active');
         $(".menu_mobile > i").attr("class", "fas fa-times" );
         $(".menu_mobile > p").html("Fechar");
-        $('.main_header_menu_box').animate({'right': '0px'}, 500);
-        $('.main_header_menu_boxul li a').click(function () {
+        $('.main_menu_box').animate({'right': '-13px'}, 500);
+        $('.main_header_menu_box ul li a').click(function () {
             $(".menu_mobile > .material-icons").html("menu");
-            $('.main_header_menu_box').animate({'right': '-100%'}, 500);
+            $('.main_header_menu_box').animate({'right': '-110%'}, 500);
             $('.menu_mobile').removeClass('active');
         });
     } else {
         $(this).removeClass('active');
         $(".menu_mobile > i").attr("class", "fas fa-bars" );
         $(".menu_mobile > p").html("Menu");
-        $('.main_header_menu_box').animate({'right': '-100%'}, 500);
+        $('.main_menu_box').animate({'right': '-110%'}, 500);
     }
 });
 
