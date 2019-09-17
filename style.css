@@ -40,18 +40,21 @@ img{
 
 .main_header > .content{
     display: flex;
+    padding: 0 !important;
 }
 
 .main_logo{
     flex-basis: 250px;
     width: 214px;
-    float: left
+    float: left;
+    padding-left: 3%
 }
 
 .main_menu{
     flex-basis: calc(100% - 220px);
     display: flex;
     justify-content: flex-end;
+    padding-right: 3%
 }
 
 .main_menu ul{
@@ -408,15 +411,19 @@ input[type="email"]{
     .menu_mobile:hover{
         cursor: pointer
     }
+    
+    .main_menu{
+        flex-basis: calc(100%);
+    }
 
     .main_menu_box {
-        right: -110%;
+        right: -100%;
         z-index: 99999;
         width: 100%;
         background-color: rgba(255, 255, 255, 1);
         height: 100vh;
         position: fixed;
-        top: 43px;
+        top: 26px;
         overflow-y: auto;
         text-align: center;
         display: block !important

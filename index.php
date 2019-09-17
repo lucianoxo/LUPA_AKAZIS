@@ -32,7 +32,7 @@
     </head>
     <body>
         <header class="main_header container">
-            <div class="content row">
+            <div class="content">
                 <div class="main_logo">
                     <img src="img/logo-akazis.png" class="responsive-img boxs">
                 </div>
