@@ -91,6 +91,59 @@ img{
 }
 
 /*********************************************
+***************** COLECTIONS ****************
+**********************************************/
+
+.main_collection{
+    margin: 50px 0
+}
+
+.main_collection > .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.main_collection .main_collection_box{
+    flex-basis: calc(33% - 20px);
+    position: relative;
+}
+
+.one{
+    position: relative;
+    transition: .5s
+}
+
+.main_collection .main_collection_box .one:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: .5s
+}
+
+.main_collection_img{
+    margin: 20px 0
+}
+.main_collection .main_collection_box img{
+    width: 100%
+}
+
+.main_collection_button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 43px;
+    background-color: #fff;
+    width: 150px
+}
+
+
+/*********************************************
 ***************** NEW PRODUCTS****************
 **********************************************/
 .main_new_products{
@@ -407,11 +460,11 @@ input[type="email"]{
         display: flex;
         align-items: center;
     }
-    
+
     .menu_mobile:hover{
         cursor: pointer
     }
-    
+
     .main_menu{
         flex-basis: calc(100%);
     }
@@ -441,13 +494,17 @@ input[type="email"]{
         display: block;
         margin: 30px;
     }
-    
+
     .main_menu li a{
         display: block
     }
 }
 
 @media (max-width: 780px) {
+    .main_collection .main_collection_box{
+        flex-basis: calc(50% - 20px);
+    }
+
     .main_new_products ul li.new_product_item{
         flex-basis: calc(50% - 30px);
     }
@@ -459,6 +516,10 @@ input[type="email"]{
 
 
 @media (max-width: 600px) {
+    .main_collection .main_collection_box{
+        flex-basis: calc(100% );
+    }
+    
     .main_new_products ul li.new_product_item {
         flex-basis: calc(50% - 0px);
         padding: 0 10px;

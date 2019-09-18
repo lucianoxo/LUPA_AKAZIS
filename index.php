@@ -68,6 +68,53 @@
                 </div>
             </div>
 
+            <section class="main_collection container">
+                <div class="content row">
+                    <div class="main_collection_box">
+                        <div class="one">
+                            <div class="main_collection_img">
+                                <img src="img/imgbox-1-375x500.jpg" class="responsive-img">
+                            </div>
+
+                            <div class="main_collection_button">
+                                Para homens
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main_collection_box">
+                        <div class="one">
+                            <div class="main_collection_img">
+                                <img src="img/imgbox-1-375x240.jpg" class="responsive-img">
+                            </div>
+                            <div class="main_collection_button">
+                                Para crianças
+                            </div>
+                        </div>
+
+                        <div class="one">
+                            <div class="main_collection_img">
+                                <img src="img/imgbox-1-375x240.jpg" class="responsive-img">
+                            </div>
+                            <div class="main_collection_button">
+                                Acessórios
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main_collection_box">
+                        <div class="one">
+                            <div class="main_collection_img">
+                                <img src="img/imgbox-2-375x500.jpg" class="responsive-img">
+                            </div>
+                            <div class="main_collection_button">
+                                Para Mulheres
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="main_new_products container">
                 <div class="content">
                     <h1 class="srBottom">Feito para você</h1>
@@ -79,9 +126,9 @@
                             <div class="new_product_desc">
                                 <span>Cotton White Underweaer Block Out Edition</span>
                             </div>
-                            <div class="new_product_price">
+<!--                            <div class="new_product_price">
                                 <span>R$ 179,90</span>
-                            </div>
+                            </div>-->
                             <!--<div class="new_product_button">
                                 <a href="#">Adicionar ao carrinho</a>
                             </div>-->
@@ -94,8 +141,14 @@
                             <div class="new_product_desc">
                                 <span>Cotton White Underweaer Block Out Edition</span>
                             </div>
-                            <div class="new_product_price">
-                                <span>R$ 179,90</span>
+                        </li>
+
+                        <li class="new_product_item srLeft">
+                            <div class="new_product_img">
+                                <img src="img/13.jpg" class="responsive-img"
+                            </div>
+                            <div class="new_product_desc">
+                                <span>Cotton White Underweaer Block Out Edition</span>
                             </div>
                         </li>
 
@@ -106,9 +159,6 @@
                             <div class="new_product_desc">
                                 <span>Cotton White Underweaer Block Out Edition</span>
                             </div>
-                            <div class="new_product_price">
-                                <span>R$ 179,90</span>
-                            </div>
                         </li>
 
                         <li class="new_product_item srLeft">
@@ -117,21 +167,6 @@
                             </div>
                             <div class="new_product_desc">
                                 <span>Cotton White Underweaer Block Out Edition</span>
-                            </div>
-                            <div class="new_product_price">
-                                <span>R$ 179,90</span>
-                            </div>
-                        </li>
-
-                        <li class="new_product_item srLeft">
-                            <div class="new_product_img">
-                                <img src="img/13.jpg" class="responsive-img"
-                            </div>
-                            <div class="new_product_desc">
-                                <span>Cotton White Underweaer Block Out Edition</span>
-                            </div>
-                            <div class="new_product_price">
-                                <span>R$ 179,90</span>
                             </div>
                         </li>
                     </ul>
@@ -152,7 +187,7 @@
                     <h1 class="srBottom">Nas Redes Sociais</h1>
 
                     <div class="main_blog_box">
-                    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a2671c59c46d5ff182e037fa294dacdd.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+                        <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/a2671c59c46d5ff182e037fa294dacdd.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
                     </div>
                 </div>
             </section>
