@@ -42,7 +42,7 @@
                             <p>Menu</p>
                         </div>
                         <li><a href="">Home</a></li>
-                        <li><a href="">Quem somos</a></li>
+                        <li><a href="http://akazis.com.br/teste/page-quem-somos.php">Quem somos</a></li>
                         <li><a href="">Coleções</a></li>
                         <li><a href="">Campanha</a></li>
                         <li><a href="">Contato</a></li>
