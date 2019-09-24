@@ -452,6 +452,36 @@ input[type="email"]{
     max-width: 50% !important; 
 }
 
+/*********************************************
+***************** PAGE *********************
+**********************************************/
+.main_page header{
+    text-align: center;
+    padding: 76px 0
+}
+
+.main_page header h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+
+
+/*******************************************************
+***************** PAGE - QUEM SOMOS*********************
+********************************************************/
+.main_page_about{
+    padding: 50px 0
+}
+
+.main_page_about h2{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 0
+}
+
 /******************************************************************************
 *************************************** RESPONSIVO******************************
 ******************************************************************************/
@@ -519,7 +549,7 @@ input[type="email"]{
     .main_collection .main_collection_box{
         flex-basis: calc(100% );
     }
-    
+
     .main_new_products ul li.new_product_item {
         flex-basis: calc(50% - 0px);
         padding: 0 10px;
