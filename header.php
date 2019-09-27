@@ -27,6 +27,7 @@
         <link rel="stylesheet" href="_cdn/css/materialize.css"/>
         <link rel="stylesheet" href="_cdn/css/unslider.css"/>
         <link rel="stylesheet" href="_cdn/css/unslider-dots.css"/>
+        <link href="_cdn/css/lightbox.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <header class="main_header container">
@@ -41,11 +42,11 @@
                             <i class="fas fa-times"></i>
                             <p>Menu</p>
                         </div>
-                        <li><a href="">Home</a></li>
+                        <li><a href="http://akazis.com.br/teste/">Home</a></li>
                         <li><a href="http://akazis.com.br/teste/page-quem-somos.php">Quem somos</a></li>
-                        <li><a href="">Coleções</a></li>
-                        <li><a href="">Campanha</a></li>
-                        <li><a href="">Contato</a></li>
+                        <li><a href="http://akazis.com.br/teste/page-colecao.php">Coleções</a></li>
+                        <li><a href="http://akazis.com.br/teste/page-campanha.php">Campanha</a></li>
+                        <li><a href="http://akazis.com.br/teste/page-contato.php">Contato</a></li>
                     </ul>
 
                     <div class="menu_mobile">

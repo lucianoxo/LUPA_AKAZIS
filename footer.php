@@ -39,6 +39,8 @@
 
         <script src="_cdn/js/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script src="_cdn/js/main.js" type="text/javascript"></script>
+        <script src="_cdn/js/lightbox.js" type="text/javascript"></script>
+        <script src="_cdn/js/video.popup.js" type="text/javascript"></script>
         <script src="_cdn/js/scrollreveal.min.js" type="text/javascript"></script>
         <script src="_cdn/js/materialize.js" type="text/javascript"></script>
         <script src="_cdn/js/unslider.js" type="text/javascript"></script>
